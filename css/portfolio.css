@@ -1,0 +1,55 @@
+body {
+	background-color: #f9ffec;
+	font-family: 'Shadows Into Light';
+}
+
+nav,
+.menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.name {
+	margin-left: 15px;
+}
+
+nav {
+	justify-content: space-between;
+	margin-right: 15px;
+	font-size: 1.4em;
+}
+
+.nav-items {
+	margin: 5px 10px;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 40px;
+	max-width: 1000px;
+}
+
+.gallery-item {
+	width: 250px;
+	height: 250px;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+
+
+@media screen and (max-width: 600px) {
+	.name {
+		display: none;
+	}
+
+	.menu {
+		flex-direction: column;
+		margin: auto;
+	}
+
+}

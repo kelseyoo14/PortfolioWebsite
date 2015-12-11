@@ -1,0 +1,59 @@
+body {
+	background-color: #f9ffec;
+	font-family: 'Shadows Into Light';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify content: flex-end;
+	align-items: center;
+	/*height: 100%;*/
+	margin-top: 11em;
+}
+
+.welcome {
+	font-size: 5em;
+	text-align: center;
+}
+
+.name-title {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+nav {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 4em;
+}
+
+.nav-items {
+	padding: .5em .8em;
+	border: 1px solid black;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 654px) {
+	.nav-items {
+		padding: .5em 3em;
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.nav-items {
+		padding: .8em 3em;
+		font-size: 1.7em;
+	}
+}
+
+
+
